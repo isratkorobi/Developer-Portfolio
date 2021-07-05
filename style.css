@@ -56,8 +56,12 @@ h2{
     width:45%;
     margin-right:5%;
     padding-left:40px;
-    padding:20px 40px;
-    background-color: #FB6856;
-    color: #fff;
+    color: #000;
     border-radius:10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, orange);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
