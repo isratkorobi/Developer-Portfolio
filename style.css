@@ -7,6 +7,9 @@ h1{
     font-size:50px;
     font-weight: 600;
 }
+h2{
+    font-size:30px;
+}
 .orange-color{
     color:orange;
 }
@@ -44,4 +47,17 @@ h1{
 }
 .experience{
     padding-left:5%;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    box-shadow: 10px 10px 50px gray;
+    width:45%;
+    margin-right:5%;
+    padding-left:40px;
+    padding:20px 40px;
+    background-color: #FB6856;
+    color: #fff;
+    border-radius:10px;
 }
